@@ -1,17 +1,19 @@
 <header class=broadsem-header>
-<div class=broadsem_header_text>
+<div class=broadsem-header-container>
+<div class=broadsem-header-text>
 <h1>BroadSem</h1>
 </div>
-<nav class=broadsem_navigation_bar>
+<nav class=broadsem-header-navigation-bar>
 	<ul>
     	{% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
     	{% for p in navigation_pages %}
       		{% if p.navigation_weight %}
         	<li>
-          	<a href="{{ p.url }}" {% if p.url == page.url %} class="active" {% endif %}>{{ p.title }}</a>
+          	<a class=broadsem-header-navigation-item href="{{ p.url }}" {% if p.url == page.url %} class="active" {% endif %}>{{ p.title }}</a>
         	</li>
       		{% endif %}
     	{% endfor %}
   </ul>
 </nav>
+</div>
 </header>

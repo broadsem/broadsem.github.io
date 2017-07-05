@@ -23,12 +23,12 @@ navigation_weight: 4
 </div>
 
 <div class=broadsem-publication-venue-box>
-{{publication.venue}}
+{{publication.venue}}, {{publication.year}}
 </div>
 
 <div class=broadsem-publication-extra-box>
-<a class=broadsem-publication-extra-link onclick="hide_visibility('publication-bib-box-{{forloop.index}}');toggle_visibility('publication-abstract-box-{{forloop.index}}')">abstract</a>
-<a class=broadsem-publication-extra-link onclick="hide_visibility('publication-abstract-box-{{forloop.index}}');toggle_visibility('publication-bib-box-{{forloop.index}}')">bib</a>
+<a class=broadsem-publication-extra-link onclick="hide_visibility('publication-bib-box-{{forloop.index}}');toggle_visibility('publication-abstract-box-{{forloop.index}}')" href>abstract</a>
+<a class=broadsem-publication-extra-link onclick="hide_visibility('publication-abstract-box-{{forloop.index}}');toggle_visibility('publication-bib-box-{{forloop.index}}')" href>bib</a>
 {% if publication.pdf %}
 <a class=broadsem-publication-extra-link href={{publication.pdf}}>pdf</a>
 {% endif %}

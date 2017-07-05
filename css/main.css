@@ -1,7 +1,6 @@
-body {
-margin: 0;
-padding: 0;
-}
+/*
+	Header:
+*/
 
 .broadsem-header {
     padding-left: 0;
@@ -9,7 +8,76 @@ padding: 0;
     margin: 0;
     background-color: #2f3241;
     border-bottom-color: #1a1b23;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    box-sizing: border-box;
 }
+
+.broadsem-header-container {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1260px;
+    height:30px;
+}
+
+.broadsem-header-text {
+    margin: 0;
+    padding: 0;
+    float: left;
+    display: block;
+    text-align: center;
+}
+
+.broadsem-header-navigation-bar {
+    margin: 0;
+    padding: 0;
+    float: right;
+}
+
+.broadsem-header h1 {
+    margin: 0;
+    font-size: 3em;
+    font: 22px Roboto,-apple-system,BlinkMacSystemFont,"Helvetica Neue","Segoe UI","Oxygen","Ubuntu","Cantarell","Open Sans",sans-serif;
+    color: #88d7e7;
+}
+
+.broadsem-header ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    color: #88d7e7;
+    list-style: none;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px
+}
+
+.broadsem-header ul li {
+    color: #88d7e7;
+    display: inline;
+    margin-right: 20px;
+    text-decoration: none;
+}
+
+.broadsem-header-navigation-item {
+    text-decoration: none;
+    color: #88d7e7;
+}
+
+/*
+	Unsorted:
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.broadsem-hidden {
+    display: none;
+}
+
+/*
+
+
 
 nav ul, footer ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
@@ -47,10 +115,5 @@ ul.posts li {
     list-style: none;
 }
 
-broadsem_navigation_bar {
 
-}
-
-.broadsem-hidden {
-    display: none;
-}
+*/
