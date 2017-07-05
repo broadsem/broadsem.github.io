@@ -1,0 +1,15 @@
+---
+permalink: /people
+layout: default
+lang: en
+title: People
+navigation_weight: 3
+---
+
+{% for person in site.data.people %}
+<div class=person_box>
+<img class=person_box_portrait src={{person.image}}>
+{{person.name}}
+
+</div>
+{% endfor %}
