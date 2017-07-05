@@ -1,10 +1,15 @@
 [
 	{
 		"name" : "Ivan Titov",
-		"image" : "images/person_placeholder.png"
+		"image" : "images/person_placeholder.png",
+		"twitter" : "https://twitter.com/iatitov",
+		"email" : "titov@uva.nl",
 	},
 	{
-		"name": "Michael Schlichtkrull",
-		"image" : "images/person_placeholder.png"
+		"name": "Michael Sejr Schlichtkrull",
+		"image" : "images/person_placeholder.png",
+		"twitter" : "https://twitter.com/michael_sejr",
+		"email" : "m.s.schlichtkrull@uva.nl",
+		"github": "http://github.com/MichSchli"
 	}
 ]

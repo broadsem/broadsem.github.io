@@ -41,7 +41,7 @@
     color: #88d7e7;
 }
 
-.broadsem-header ul {
+.broadsem-header .broadsem-header-ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
     color: #88d7e7;
     list-style: none;
@@ -50,7 +50,7 @@
     margin: 0px
 }
 
-.broadsem-header ul li {
+.broadsem-header .broadsem-header-ul .broadsem-header-li {
     color: #88d7e7;
     display: inline;
     margin-right: 20px;
@@ -73,6 +73,47 @@ body {
 
 .broadsem-hidden {
     display: none;
+}
+
+/*
+	People:
+*/
+
+.people-social-ul {
+	overflow: auto;
+}
+
+.people-social-ul .people-social-li {
+	list-style-type: none;
+	float: left;
+}
+
+.person-portrait {
+	border-radius:50%
+}
+
+.people-social-ul .people-social-li .people-social-a .people-social-i {
+	color: #fff;
+	width: 50px;
+	height: 39px;
+	border-radius: 50%;
+	font-size: 27px;
+	text-align: center;
+	margin-right: 10px;
+	padding-top: 11px;
+}
+
+.fa-linkedin {
+	background:#007bb6
+}
+.fa-twitter {
+	background:#00aced
+}
+.fa-envelope {
+	background:#007bb6
+}
+.fa-github {
+	background:#007bb6
 }
 
 /*

@@ -6,10 +6,36 @@ title: People
 navigation_weight: 3
 ---
 
-{% for person in site.data.people %}
-<div class=person_box>
-<img class=person_box_portrait src={{person.image}}>
-{{person.name}}
+Members
 
+{% for person in site.data.people %}
+<div class=person-box>
+<div class=person-portrait-container>
+<img class=person-portrait src={{person.image}}>
 </div>
+<h3>{{person.name}}</h3>
+{{person.position}}
+{{person.webpage}}
+<ul class=people-social-ul>
+
+{% if person.email %}
+<li class=people-social-li><a href="{{person.email}}" class=people-social-a><i class="fa fa-envelope people-social-i"></i></a></li>
+{% endif %}
+
+{% if person.linkedin %}
+<li class=people-social-li><a href="http://linkedin.com/" class=people-social-a><i class="fa fa-linkedin people-social-i"></i></a></li>
+{% endif %}
+
+{% if person.twitter %}
+<li class=people-social-li><a href="http://twitter.com/" class=people-social-a><i class="fa fa-twitter people-social-i"></i></a></li>
+{% endif %}
+
+
+{% if person.github %}
+<li class=people-social-li><a href="http://twitter.com/" class=people-social-a><i class="fa fa-github people-social-i"></i></a></li>
+{% endif %}
+
+</ul>
 {% endfor %}
+
+Associate Members
