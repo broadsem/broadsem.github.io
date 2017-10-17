@@ -7,7 +7,13 @@
       	<script type="text/javascript" src="js/materialize.min.js"></script>
     	{% include header.html %}
 
-    	{{ content }}
+        <div id=wrap>
+		<div id="main">
+    		{{ content }}
+		</div>
+	</div>
+
+    	{% include footer.html %}
   </body>
 
 </html>
