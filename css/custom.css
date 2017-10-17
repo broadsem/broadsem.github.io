@@ -1,0 +1,74 @@
+/*
+	People:
+*/
+
+.person-box {
+    -moz-box-sizing:border-box;
+ -webkit-box-sizing:border-box;
+         box-sizing:border-box;
+    float:left;
+    padding: 10px;
+    width:100%;
+}
+
+.person-box div {
+    text-align:center;
+}
+
+@media all and (min-width:900px) {
+    .person-box {
+        width:50%;
+    }
+}
+
+@media all and (min-width:1360px) {
+    .person-box {
+        width:33.33333%;
+    }
+}
+
+@media all and (min-width:1915px) {
+    .person-box {
+        width:25%;
+    }
+}​
+
+.people-social-ul {
+	overflow: auto;
+}
+
+.people-social-ul .people-social-li {
+	list-style-type: none;
+	float: left;
+}
+
+.person-portrait {
+	border-radius:50%
+}
+
+.people-social-ul .people-social-li .people-social-a .people-social-i {
+	color: #fff;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	font-size: 27px;
+	text-align: center;
+	margin-right: 10px;
+	padding-top: 11px;
+}
+
+.fa-linkedin {
+	background:#007bb6
+}
+.fa-twitter {
+	background:#00aced
+}
+.fa-envelope {
+	background:#007bb6
+}
+.fa-github {
+	background:#007bb6
+}
+
+/*
+

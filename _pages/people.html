@@ -6,8 +6,8 @@ title: People
 navigation_weight: 3
 ---
 
-Members
-
+<div class="container">
+<div class="section">
 {% for person in site.data.people %}
 <div class=person-box>
 <div class=person-portrait-container>
@@ -15,6 +15,7 @@ Members
 </div>
 <h3>{{person.name}}</h3>
 {{person.position}}
+{{person.description}}
 {{person.webpage}}
 <ul class=people-social-ul>
 
@@ -36,6 +37,7 @@ Members
 {% endif %}
 
 </ul>
+</div>
 {% endfor %}
-
-Associate Members
+</div>
+</div>

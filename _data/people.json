@@ -4,12 +4,54 @@
 		"image" : "images/person_placeholder.png",
 		"twitter" : "https://twitter.com/iatitov",
 		"email" : "titov@uva.nl",
+		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra metus sit amet quam cursus pellentesque. Donec urna nunc, blandit ut elit non, finibus luctus ligula. Vivamus vulputate rhoncus magna, sed cursus metus. Sed eu blandit diam, sed facilisis leo. Maecenas cursus pellentesque fringilla. Morbi vitae pretium ligula, sed volutpat."
+	},
+	{
+		"name": "Diego Marcheggiani",
+		"image" : "images/person_placeholder.png",
+		"twitter" : "https://twitter.com/...",
+		"email" : "...@uva.nl",
+		"github": "http://github.com/...",
+		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra metus sit amet quam cursus pellentesque. Donec urna nunc, blandit ut elit non, finibus luctus ligula. Vivamus vulputate rhoncus magna, sed cursus metus. Sed eu blandit diam, sed facilisis leo. Maecenas cursus pellentesque fringilla. Morbi vitae pretium ligula, sed volutpat."
+	},
+	{
+		"name": "Phong Le",
+		"image" : "images/person_placeholder.png",
+		"twitter" : "https://twitter.com/...",
+		"email" : "...@uva.nl",
+		"github": "http://github.com/...",
+		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra metus sit amet quam cursus pellentesque. Donec urna nunc, blandit ut elit non, finibus luctus ligula. Vivamus vulputate rhoncus magna, sed cursus metus. Sed eu blandit diam, sed facilisis leo. Maecenas cursus pellentesque fringilla. Morbi vitae pretium ligula, sed volutpat."
+	},
+	{
+		"name": "Serhii Havrylov",
+		"image" : "images/person_placeholder.png",
+		"twitter" : "https://twitter.com/...",
+		"email" : "...@uva.nl",
+		"github": "http://github.com/...",
+		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra metus sit amet quam cursus pellentesque. Donec urna nunc, blandit ut elit non, finibus luctus ligula. Vivamus vulputate rhoncus magna, sed cursus metus. Sed eu blandit diam, sed facilisis leo. Maecenas cursus pellentesque fringilla. Morbi vitae pretium ligula, sed volutpat."
 	},
 	{
 		"name": "Michael Sejr Schlichtkrull",
 		"image" : "images/person_placeholder.png",
 		"twitter" : "https://twitter.com/michael_sejr",
 		"email" : "m.s.schlichtkrull@uva.nl",
-		"github": "http://github.com/MichSchli"
+		"github": "http://github.com/MichSchli",
+		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra metus sit amet quam cursus pellentesque. Donec urna nunc, blandit ut elit non, finibus luctus ligula. Vivamus vulputate rhoncus magna, sed cursus metus. Sed eu blandit diam, sed facilisis leo. Maecenas cursus pellentesque fringilla. Morbi vitae pretium ligula, sed volutpat."
+	},
+	{
+		"name": "Joost Bastings",
+		"image" : "images/person_placeholder.png",
+		"twitter" : "https://twitter.com/...",
+		"email" : "...@uva.nl",
+		"github": "http://github.com/...",
+		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra metus sit amet quam cursus pellentesque. Donec urna nunc, blandit ut elit non, finibus luctus ligula. Vivamus vulputate rhoncus magna, sed cursus metus. Sed eu blandit diam, sed facilisis leo. Maecenas cursus pellentesque fringilla. Morbi vitae pretium ligula, sed volutpat."
+	},
+	{
+		"name": "Chunchuan Lyu",
+		"image" : "images/person_placeholder.png",
+		"twitter" : "https://twitter.com/...",
+		"email" : "...@uva.nl",
+		"github": "http://github.com/...",
+		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra metus sit amet quam cursus pellentesque. Donec urna nunc, blandit ut elit non, finibus luctus ligula. Vivamus vulputate rhoncus magna, sed cursus metus. Sed eu blandit diam, sed facilisis leo. Maecenas cursus pellentesque fringilla. Morbi vitae pretium ligula, sed volutpat."
 	}
 ]
