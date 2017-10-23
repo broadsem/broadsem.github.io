@@ -1,0 +1,26 @@
+[
+	{
+		"name" : "Dummy Resource",
+		"description": "A dummy resource used temporarily.",
+		"link": "https://arxiv.org/abs/1703.06103",
+		"paper": "The Paper with the Resource",
+		"publication_link": "https://arxiv.org/abs/1703.06103",
+		"type": "software",
+	},
+	{
+		"name" : "Dummy Resource 2",
+		"description": "A second dummy resource used temporarily.",
+		"link": "https://arxiv.org/abs/1703.06103",
+		"paper": "The Paper with the Resource",
+		"publication_link": "https://arxiv.org/abs/1703.06103",
+		"type": "data",
+	},
+	{
+		"name" : "Dummy Resource 3",
+		"description": "A second dummy resource used temporarily.",
+		"link": "https://arxiv.org/abs/1703.06103",
+		"paper": "The Paper with the Resource",
+		"publication_link": "https://arxiv.org/abs/1703.06103",
+		"type": "data",
+	},
+]
