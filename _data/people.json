@@ -1,6 +1,8 @@
 [
 	{
 		"name" : "Ivan Titov",
+		"position" : "Placeholder",
+		"website" : "http://www.placeholder.dk",
 		"image" : "images/person_placeholder.png",
 		"twitter" : "https://twitter.com/iatitov",
 		"email" : "titov@uva.nl",
@@ -8,6 +10,7 @@
 	},
 	{
 		"name": "Diego Marcheggiani",
+		"position" : "Placeholder",
 		"image" : "images/person_placeholder.png",
 		"twitter" : "https://twitter.com/...",
 		"email" : "...@uva.nl",
@@ -16,6 +19,8 @@
 	},
 	{
 		"name": "Phong Le",
+		"position" : "Placeholder",
+		"website" : "http://www.placeholder.dk",
 		"image" : "images/person_placeholder.png",
 		"twitter" : "https://twitter.com/...",
 		"email" : "...@uva.nl",
@@ -24,14 +29,18 @@
 	},
 	{
 		"name": "Serhii Havrylov",
+		"position" : "Placeholder",
+		"website" : "http://www.placeholder.dk",
 		"image" : "images/person_placeholder.png",
 		"twitter" : "https://twitter.com/...",
 		"email" : "...@uva.nl",
 		"github": "http://github.com/...",
-		"description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam viverra metus sit amet quam cursus pellentesque. Donec urna nunc, blandit ut elit non, finibus luctus ligula. Vivamus vulputate rhoncus magna, sed cursus metus. Sed eu blandit diam, sed facilisis leo. Maecenas cursus pellentesque fringilla. Morbi vitae pretium ligula, sed volutpat."
+		"description" : "Lorem ipsum dolor sit amet."
 	},
 	{
 		"name": "Michael Sejr Schlichtkrull",
+		"position" : "Placeholder",
+		"website" : "http://www.placeholder.dk",
 		"image" : "images/person_placeholder.png",
 		"twitter" : "https://twitter.com/michael_sejr",
 		"email" : "m.s.schlichtkrull@uva.nl",
@@ -40,6 +49,8 @@
 	},
 	{
 		"name": "Joost Bastings",
+		"position" : "Placeholder",
+		"website" : "http://www.placeholder.dk",
 		"image" : "images/person_placeholder.png",
 		"twitter" : "https://twitter.com/...",
 		"email" : "...@uva.nl",
@@ -48,6 +59,8 @@
 	},
 	{
 		"name": "Chunchuan Lyu",
+		"position" : "Placeholder",
+		"website" : "http://www.placeholder.dk",
 		"image" : "images/person_placeholder.png",
 		"twitter" : "https://twitter.com/...",
 		"email" : "...@uva.nl",

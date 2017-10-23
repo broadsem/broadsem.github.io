@@ -45,12 +45,8 @@ body:before {
  -webkit-box-sizing:border-box;
          box-sizing:border-box;
     float:left;
-    padding: 10px;
+    padding: 20px;
     width:100%;
-}
-
-.person-box div {
-    text-align:center;
 }
 
 @media all and (min-width:900px) {
@@ -80,19 +76,64 @@ body:before {
 	float: left;
 }
 
+.person-portrait-box {
+	width: 35%;
+	float: left;
+	padding: 10px;
+}
+
 .person-portrait {
-	border-radius:50%
+	border-radius:15%;
+	width: 100%;
+}
+
+.person-info-box {
+	width: 65%;
+	float: left;
+	margin: 0px;
+	padding: 10px;
+	font-size: 17.5px;
+}
+
+.person-info-box a {
+	font-size: 19.5px;
+	font-weight: normal;
+	line-height: 1;
+	float: left;
+	width: 100%
+}
+
+.person-description-box {
+	float: left;
+	width: 100%;
+	text-align: left;
+	padding: 10px;
+}
+
+.person-info-box small {
+	font-size: 16px;
+	font-weight: normal;
+	line-height: 1;
+	color: #999999;
+	float: left;
+	width: 100%
 }
 
 .people-social-ul .people-social-li .people-social-a .people-social-i {
 	color: #fff;
-	width: 50px;
-	height: 50px;
+	width: 25px;
+	height: 25px;
 	border-radius: 50%;
-	font-size: 27px;
+	font-size: 15px;
 	text-align: center;
 	margin-right: 10px;
-	padding-top: 11px;
+	padding-top: 5px;
+}
+
+.people-social-ul {
+	float: left;
+	width: 100%;
+	padding-top: 23%;
 }
 
 .fa-linkedin {
